@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Josie</title>
+</head>
+<style>
+    *
+    {
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        user-select: none;
+    }
+
+    .formulario
+    {
+        background-color: white;
+        border: 2px brown solid;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .intereses
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+        border: 2px dotted brown;
+    }
+
+</style>
+<body>
+    <form method="post" action="formulario_josie.php" class="formulario">
+    <h1 class="title">FORMULARIO</h1>
+        <label>Usuario:</label>
+        <br>
+        <input type="text" name="usuario" value="" required>
+        <br>
+        <br>
+        <label>Correo:</label>
+        <br>
+        <input type="email" name="correo" value="" required>
+        <br>
+        <br>
+        <label>Contraseña:</label>
+        <br>
+        <input type="password" name="contrasena" value="" min="5" minlength="5" max="31" maxlength="31" required>
+        <br>
+        <br>
+        <label>Genero:</label>
+        <select name="genero">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+        </select>
+
+        <br>
+        <div class="intereses">
+            <input type="checkbox" name="deportes" />⚽ Deportes ⚽
+            <br>
+            <input type="checkbox" name="musica" />🎵 Musica 🎵
+            <br>
+            <input type="checkbox" name="peliculas" />📺 Peliculas 📺
+            <br>
+            <input type="checkbox" name="juegos" />🛝 Juegos 🛝
+            <br>
+            <input type="checkbox" name="bailar" />🕺 Bailar 🕺
+            <br>
+            <input type="checkbox" name="programar" />🧑‍💻 Programar 🧑‍💻
+            <br>
+            <input type="checkbox" name="participar" />🙋 Participar en clase 🙋
+            <br>
+            <input type="checkbox" name="multimedia" />📺 Ver contenido multimedia 📺
+            <br>
+        </div>
+
+        <div class="bordeRegistro">
+            <input type="submit" value="Registrar" id="botonRegistro">
+        <br>
+        <br>
+        </div>
+    </form>
+    <script>
+        window.addEventListener("load", (event) => {
+        setInterval(changeColors,1000);
+        });
+
+        function changeColors()
+        {
+            let r = Math.floor(Math.random() * 256);
+            let g = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
+            document.body.style.backgroundColor = "rgb("+ r +","+ g +","+ b +")";
+        }
+
+    </script>
+</body>
+</html>

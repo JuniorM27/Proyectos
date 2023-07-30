@@ -1,0 +1,81 @@
+.movement
+{
+    height: 90vh;
+    width: 90vw;
+}
+
+html
+{
+    cursor: none;
+    user-select: none;
+}
+
+body
+{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.space
+{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    height: 100%;
+}
+
+.hud
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.progressBar
+{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+.bossBar
+{
+    top: 3vh;
+    position: absolute;
+    width: 90vw;
+    height: 1vh;
+    background-color: gray;
+}
+
+.bossClone
+{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    filter: grayscale(25%);
+    display: none;
+}
+
+#bullet
+{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+}
+
+#boss
+{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+}
+
+#scope
+{
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    pointer-events: none;
+}

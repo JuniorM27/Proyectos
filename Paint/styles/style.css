@@ -1,0 +1,59 @@
+*
+{
+    user-select: none;
+}
+#scope
+{
+    position: fixed;
+    width: 2.5vw;
+    height: 2.5vw;
+    pointer-events: none;
+}
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+#hud
+{
+    cursor: auto;
+    margin: 0%;
+    padding: 0%;
+    height: 10vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+#space
+{
+    cursor: none;
+    margin: 0%;
+    padding: 0%;
+
+    text-indent: 0%;
+    letter-spacing: 0px;
+    line-height: 0px;
+    word-spacing: 0px;
+    white-space: 0px;
+    height: 90vh;
+    width: 100vw;
+}
+
+.painted
+{
+    box-shadow: none !important;
+    border-color: transparent;
+    border-style: none;
+    position: absolute;
+    width: 2px;
+    height: 2px;
+}
+
+#pixel
+{
+    margin: 0%;
+    padding: 0%;
+}

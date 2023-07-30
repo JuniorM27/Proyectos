@@ -1,0 +1,58 @@
+body
+{
+    display: block;
+    user-select: none;
+    width: 100vh;
+}
+
+div
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: column;
+}
+
+form
+{
+    width: 210vh;
+}
+
+.listDiv
+{
+    text-align: left;
+}
+
+ol
+{
+    list-style: none;
+    padding: 0%;
+    width: 20vh;
+    text-align: center;
+}
+li
+{
+    cursor: pointer;
+    padding: 2px;
+}
+
+input
+{
+    width: 250px;
+}
+
+select
+{
+    width: 250px;
+}
+
+li:hover
+{
+    color: green;
+}
+
+label
+{
+    user-select: none;
+}

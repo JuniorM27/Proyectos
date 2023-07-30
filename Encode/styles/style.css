@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.codigo
+{
+    width: 100vh;
+    height: 50vh;
+}

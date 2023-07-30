@@ -1,0 +1,230 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap%27');*/
+
+*{
+    user-select: none;
+}
+
+
+/*
+LISTA DE PRECIOS
+*/
+
+
+/*
+HISTORIAL DE VEHICULOS
+*/
+.agregarvehiculo form div:nth-child(2)
+{
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+.agregarvehiculo form .contenedor
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    display: block;
+}
+.agregarvehiculo form .contenedor div textarea
+{
+    resize: none;
+    width: 25vh;
+    height: 25vh;
+}
+.agregarvehiculo form .contenedor div
+{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    display: block;
+}
+
+.agregarvehiculo input
+{
+    font-size: 2vh;
+}
+.agregarvehiculo select
+{
+    text-align: center;
+    font-size: 2vh;
+}
+
+.agregarvehiculo input[type="submit"]
+{
+    font-size: 3vh;
+    height: 10vh;
+    width: 17vh;
+}
+
+.agregarvehiculo h1
+{
+    font-size: 5vh;
+}
+
+.historialdevehiculos
+{
+    margin: 0%;
+    font-size: 2.5vh;
+}
+
+.historialdevehiculos .cartelDescripciones
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 70vh;
+    font-size: 3vh;
+    border: 0.5vh solid #4CAF50;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+}
+
+.historialdevehiculos .titulohistorialdevehiculos
+{
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.historialdevehiculos .titulohistorialdevehiculos button
+{
+    font-size: 2vh;
+    border: gray 0.05vh solid;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.historialdevehiculos h1
+{
+    margin: 0%;
+    font-family: 'Pacifico';
+}
+
+.historialdevehiculos nav div
+{
+    display: flex;
+    justify-content: center;
+}
+
+.historialdevehiculos nav div form *
+{
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-size: 2.5vh;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-width: 0.05vh;
+}
+
+.historialdevehiculos nav
+{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    height: 13vh;
+}
+
+/*
+INDICE
+*/
+
+.indice_body
+{
+    margin: 0%;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.indice_titulo img
+{
+    width: 15vh;
+    height: 15vh;
+    padding-left: 1vh;
+    border: 0vh transparent solid;
+    border-radius: 50%;
+}
+
+.indice_titulo h2
+{
+    color: transparent;
+}
+
+.indice_titulo
+{
+    display: flex;
+    font-size: 3vh;
+    vertical-align: middle;
+    align-content: normal;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 15vh;
+}
+
+
+.indice
+{
+    font-size: 10vh;
+    height: 85vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: column;
+    color: white;
+}
+.indice button
+{
+    font-size: 7vh;
+    border: 0.5vh gray solid;
+}
+
+button:hover
+{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+}
+
+/*
+RESULTADO DE QUERYS
+*/
+
+.resultado
+{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5vh;
+    user-select: none;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+.resultado a {
+    background-color: #4CAF50;
+    color: white;
+    border: solid 0.05vh #479c4a;
+}
+.resultado a:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+.resultado a
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.resultado .head
+{
+    background-color: khaki;
+}
+
+.resultado th, .resultado td
+{
+    border: rgba(0, 0, 0, 0.726) 0.05vh solid;
+}

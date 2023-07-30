@@ -1,0 +1,33 @@
+<div ;="" class="informacion" style="font-size:2vh">esto es una prueba<br></div> ////esto es de: ¿Que esta Pasando?/ texto de la base de datos
+
+<div class="channel">
+        <h1 style="font-size:10vh" ;="" id="channel_sabias">¿Sabias esto?</h1>
+        <p class="sq">⚫ ¿Sabias que esto es una pregunta de prueba?</p><br>    </div>
+
+////////////////////////////////////////////////////////////////////////////////////////Diseño Movil
+.grafico_barras
+{
+    background-color: var(--check-color);
+    border: 0.5vh solid black;
+    border-bottom: 0vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.grafico
+{
+    display: flex; 
+    width: 90vw; 
+    height:55vw; 
+    align-items: baseline;
+    padding-top: 0.5vh;
+    border: 0.5vh solid black;
+}
+
+.botones_scroll{
+width: 10vw; 
+height: 7vh 
+  display: flex;
+  justify-content: center;
+}
+}

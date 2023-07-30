@@ -1,0 +1,39 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 90vh;
+}
+
+.user_pass input
+{
+    width: 11vh;
+}
+
+
+.DatabaseInput select
+{
+    width: 100vh;
+    margin-left: -25vh;
+}
+
+.QueryInput textarea
+{
+    width: 100vh;
+    height: 50vh;
+    margin-left: -25vh;
+}
+
+div
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vh;
+}

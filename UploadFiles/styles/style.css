@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.UploaderForm
+{
+    padding-top: 25vh;
+}
+
+p
+{
+    font-size: 2.5vh;
+}
+
+input
+{
+    font-size: 2.3vh;
+}
+
+button
+{
+    font-size: 2.5vh;
+}
+
+.fileImg
+{
+    width: 20vh;
+    height: 20vh;
+}
+
+.filesDiv
+{
+    font-size: 2.5vh;
+    width: 70vh;
+    border: 2px rgb(22, 117, 65) solid;
+    background-color: rgb(49, 129, 76);
+    padding: 1vh;
+    color: wheat;
+}
+
+.UploaderReader
+{
+    border: 2px rgb(22, 117, 65) solid;
+    background-color: rgb(49, 129, 76);
+    padding: 1vh;
+    width: 70vh;
+}
+.UploaderReader a
+{
+    color: wheat;
+    text-decoration: none;
+}

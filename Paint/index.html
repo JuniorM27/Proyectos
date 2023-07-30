@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Pintar</title>
+</head>
+<body>
+    <div id="hud">
+        <img src="./img/circle.png" id="previewColor">
+        <label>Rojo:</label>
+        <input type="range" id="r">
+        <label>Verde:</label>
+        <input type="range" id="g">
+        <label>Azul:</label>
+        <input type="range" id="b">
+        <label>Transparencia:</label>
+        <input type="range" id="a">
+        <label>Color:</label>
+        <select id="color">
+            <option value="black">Negro</option>
+            <option value="white">Blanco</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+            <option value="violet">Violeta</option>
+            <option value="pink">Rosa</option>
+            <option value="yellow">Amarillo</option>
+        </select>
+
+        <label>Color de fondo:</label>
+        <select id="bcolor">
+            <option value="white">Blanco</option>
+            <option value="black">Negro</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+            <option value="violet">Violeta</option>
+            <option value="pink">Rosa</option>
+            <option value="yellow">Amarillo</option>
+        </select>
+    </div>
+    <div id="space"></div>
+    <img src="./img/brocha" alt="" id="scope">
+</body>
+<script src="./js/script.js"></script>
+</html>

@@ -1,0 +1,25 @@
+<object type="type/html" data="home.html" id="IRL">
+
+</object>
+<script>
+var path = prompt("Coloque el link de la pagina a ver en tiempo real.", "./");
+const refreshElementID = "IRL";
+
+function refresh()
+{
+    try{
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function()
+        {
+            document.getElementById(refreshElementID).innerHTML = this.responseText;
+        }
+        xhttp.open("GET", path);
+        xhttp.send();    
+    } catch
+    {
+        console.warn("Algo anda mal, compruebe que las constantes estan bien ingresadas y intentelo de nuevo.");
+    }
+}
+
+setInterval(refresh, 100);
+</script>
